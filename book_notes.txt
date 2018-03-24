@@ -1,0 +1,14 @@
+For starters, the abstract objects that make up the layers of a network system are called protocols. That is, a protocol provides a communication service that
+higher-level objects (such as application processes, or perhaps higher-
+level protocols) use to exchange messages. For example, we could imagine
+a network that supports a request/reply protocol and a message stream
+protocol, corresponding to the request/reply and message stream chan-
+nels discussed above.
+
+
+
+
+To summarize, a protocol defines a communication service that it
+exports locally (the service interface), along with a set of rules governing
+the messages that the protocol exchanges with its peer(s) to implement
+this service (the peer interface)

@@ -1,0 +1,4 @@
+all: p-counter
+	gcc p-counter.c -o p-counter
+	#gcc -g -Wall -o p-counter p-counter.c
+	
